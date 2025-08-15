@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Panel1 = New Panel()
         Button6 = New Button()
-        Button5 = New Button()
         Button4 = New Button()
         Button3 = New Button()
         Button2 = New Button()
@@ -38,41 +37,28 @@ Partial Class Form1
         ' 
         Panel1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
         Panel1.Controls.Add(Button6)
-        Panel1.Controls.Add(Button5)
         Panel1.Controls.Add(Button4)
         Panel1.Controls.Add(Button3)
         Panel1.Controls.Add(Button2)
         Panel1.Controls.Add(Button1)
         Panel1.Dock = DockStyle.Bottom
-        Panel1.Location = New Point(0, 477)
+        Panel1.Location = New Point(0, 552)
         Panel1.Margin = New Padding(3, 2, 3, 2)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1070, 41)
+        Panel1.Size = New Size(1290, 41)
         Panel1.TabIndex = 0
         ' 
         ' Button6
         ' 
         Button6.Dock = DockStyle.Left
         Button6.Font = New Font("MS UI Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Button6.Location = New Point(870, 0)
+        Button6.Location = New Point(676, 0)
         Button6.Margin = New Padding(3, 2, 3, 2)
         Button6.Name = "Button6"
         Button6.Size = New Size(194, 41)
         Button6.TabIndex = 5
         Button6.Text = "Bing"
         Button6.UseVisualStyleBackColor = True
-        ' 
-        ' Button5
-        ' 
-        Button5.Dock = DockStyle.Left
-        Button5.Font = New Font("MS UI Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Button5.Location = New Point(676, 0)
-        Button5.Margin = New Padding(3, 2, 3, 2)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(194, 41)
-        Button5.TabIndex = 4
-        Button5.Text = "Picasa"
-        Button5.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
@@ -130,18 +116,18 @@ Partial Class Form1
         WebView21.Dock = DockStyle.Fill
         WebView21.Location = New Point(0, 0)
         WebView21.Name = "WebView21"
-        WebView21.Size = New Size(1070, 477)
+        WebView21.Size = New Size(1290, 552)
         WebView21.TabIndex = 1
         WebView21.ZoomFactor = 1R
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 15F)
+        AutoScaleDimensions = New SizeF(6F, 12F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ActiveCaption
         BackgroundImage = My.Resources.Resources.OLEO1
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1070, 518)
+        ClientSize = New Size(1290, 593)
         Controls.Add(WebView21)
         Controls.Add(Panel1)
         DoubleBuffered = True
@@ -157,7 +143,6 @@ Partial Class Form1
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button6 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
